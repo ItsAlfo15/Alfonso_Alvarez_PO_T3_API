@@ -1,0 +1,207 @@
+{
+  "jugadores": [
+    {
+      "id": "J1",
+      "nombre": "Novak Djokovic",
+      "foto": "djokovic.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    },
+    {
+      "id": "J2",
+      "nombre": "Rafael Nadal",
+      "foto": "nadal.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    },
+    {
+      "id": "J3",
+      "nombre": "Carlos Alcaraz",
+      "foto": "alcaraz.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    },
+    {
+      "id": "J4",
+      "nombre": "Stefanos Tsitsipas",
+      "foto": "tsitsipas.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    },
+    {
+      "id": "J5",
+      "nombre": "Iga Świątek",
+      "foto": "swiatek.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    },
+    {
+      "id": "J6",
+      "nombre": "Ons Jabeur",
+      "foto": "jabeur.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    },
+    {
+      "id": "J7",
+      "nombre": "Casper Ruud",
+      "foto": "ruud.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    },
+    {
+      "id": "J8",
+      "nombre": "Aryna Sabalenka",
+      "foto": "sabalenka.jpg",
+      "partidos_jugados": 0,
+      "partidos_ganados": 0,
+      "partidos_perdidos": 0
+    }
+  ],
+  "torneo": {
+    "id": "T1",
+    "nombre": "Australian Open",
+    "partidos": [
+      {
+        "id": "P1",
+        "ronda": "Cuartos de final",
+        "jugador1": null,
+        "puntuaciones_jugador_1": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "jugador2": null,
+        "puntuaciones_jugador_2": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "saque": null,
+        "ganador": null,
+        "fechaFinPartido": null
+      },
+      {
+        "id": "P2",
+        "ronda": "Cuartos de final",
+        "jugador1": null,
+        "puntuaciones_jugador_1": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "jugador2": null,
+        "puntuaciones_jugador_2": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "saque": null,
+        "ganador": null,
+        "fechaFinPartido": null
+      },
+      {
+        "id": "P3",
+        "ronda": "Cuartos de final",
+        "jugador1": null,
+        "puntuaciones_jugador_1": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "jugador2": null,
+        "puntuaciones_jugador_2": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "saque": null,
+        "ganador": null,
+        "fechaFinPartido": null
+      },
+      {
+        "id": "P4",
+        "ronda": "Cuartos de final",
+        "jugador1": null,
+        "puntuaciones_jugador_1": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "jugador2": null,
+        "puntuaciones_jugador_2": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "saque": null,
+        "ganador": null,
+        "fechaFinPartido": null
+      },
+      {
+        "id": "P5",
+        "ronda": "Semifinal",
+        "jugador1": null,
+        "puntuaciones_jugador_1": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "jugador2": null,
+        "puntuaciones_jugador_2": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "saque": null,
+        "ganador": null,
+        "fechaFinPartido": null
+      },
+      {
+        "id": "P6",
+        "ronda": "Semifinal",
+        "jugador1": null,
+        "puntuaciones_jugador_1": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "jugador2": null,
+        "puntuaciones_jugador_2": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "saque": null,
+        "ganador": null,
+        "fechaFinPartido": null
+      },
+      {
+        "id": "P7",
+        "ronda": "Final",
+        "jugador1": null,
+        "puntuaciones_jugador_1": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "jugador2": null,
+        "puntuaciones_jugador_2": {
+          "puntos": 0,
+          "juegos": 0,
+          "sets": 0
+        },
+        "saque": null,
+        "ganador": null,
+        "fechaFinPartido": null
+      }
+    ]
+  }
+}
