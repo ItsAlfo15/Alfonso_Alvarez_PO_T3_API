@@ -67,26 +67,27 @@
   ],
   "torneo": {
     "id": "T1",
-    "nombre": "Australian Open",
+    "nombre": "Primer Torneo",
     "partidos": [
       {
         "id": "P1",
         "ronda": "Cuartos de final",
-        "jugador1": null,
+        "jugador1": "J1",
         "puntuaciones_jugador_1": {
           "puntos": 0,
           "juegos": 0,
           "sets": 0
         },
-        "jugador2": null,
+        "jugador2": "J2",
         "puntuaciones_jugador_2": {
           "puntos": 0,
           "juegos": 0,
-          "sets": 0
+          "sets": 2
         },
-        "saque": null,
-        "ganador": null,
-        "fechaFinPartido": null
+        "saque": "J2",
+        "ganador": "J2",
+        "tieBreak": false,
+        "fechaFinPartido": "2025-12-13T18:54:03.708052"
       },
       {
         "id": "P2",
@@ -105,6 +106,7 @@
         },
         "saque": null,
         "ganador": null,
+        "tieBreak": false,
         "fechaFinPartido": null
       },
       {
@@ -124,6 +126,7 @@
         },
         "saque": null,
         "ganador": null,
+        "tieBreak": false,
         "fechaFinPartido": null
       },
       {
@@ -143,6 +146,7 @@
         },
         "saque": null,
         "ganador": null,
+        "tieBreak": false,
         "fechaFinPartido": null
       },
       {
@@ -162,6 +166,7 @@
         },
         "saque": null,
         "ganador": null,
+        "tieBreak": false,
         "fechaFinPartido": null
       },
       {
@@ -181,6 +186,7 @@
         },
         "saque": null,
         "ganador": null,
+        "tieBreak": false,
         "fechaFinPartido": null
       },
       {
@@ -200,6 +206,7 @@
         },
         "saque": null,
         "ganador": null,
+        "tieBreak": false,
         "fechaFinPartido": null
       }
     ]
