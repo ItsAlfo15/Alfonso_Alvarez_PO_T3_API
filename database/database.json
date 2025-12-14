@@ -67,7 +67,7 @@
   ],
   "torneo": {
     "id": "T1",
-    "nombre": "Prueba",
+    "nombre": "Primer Torneo Martos",
     "partidos": [
       {
         "id": "P1",
