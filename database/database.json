@@ -3,7 +3,7 @@
     {
       "id": "J1",
       "nombre": "Novak Djokovic",
-      "foto": "djokovic.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702361/djokovic_l1m3yy.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
@@ -11,7 +11,7 @@
     {
       "id": "J2",
       "nombre": "Rafael Nadal",
-      "foto": "nadal.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702362/nadal_fzi1sq.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
@@ -19,7 +19,7 @@
     {
       "id": "J3",
       "nombre": "Carlos Alcaraz",
-      "foto": "alcaraz.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702361/alcaraz_qdygdl.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
@@ -27,7 +27,7 @@
     {
       "id": "J4",
       "nombre": "Stefanos Tsitsipas",
-      "foto": "tsitsipas.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702361/tsitsipas_t6xocq.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
@@ -35,7 +35,7 @@
     {
       "id": "J5",
       "nombre": "Iga Świątek",
-      "foto": "swiatek.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702360/swiatek_mtj1yo.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
@@ -43,7 +43,7 @@
     {
       "id": "J6",
       "nombre": "Ons Jabeur",
-      "foto": "jabeur.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702361/jabeur_rmc8b8.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
@@ -51,7 +51,7 @@
     {
       "id": "J7",
       "nombre": "Casper Ruud",
-      "foto": "ruud.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702360/ruud_q7o7gp.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
@@ -59,7 +59,7 @@
     {
       "id": "J8",
       "nombre": "Aryna Sabalenka",
-      "foto": "sabalenka.jpg",
+      "foto": "https://res.cloudinary.com/dxxrewzzr/image/upload/v1765702360/sabalenka_p57utr.png",
       "partidos_jugados": 0,
       "partidos_ganados": 0,
       "partidos_perdidos": 0
