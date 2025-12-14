@@ -71,7 +71,7 @@
     "partidos": [
       {
         "id": "P1",
-        "ronda": "Cuartos de final",
+        "ronda": "Cuartos",
         "jugador1": "J1",
         "puntuaciones_jugador_1": {
           "puntos": 0,
@@ -91,7 +91,7 @@
       },
       {
         "id": "P2",
-        "ronda": "Cuartos de final",
+        "ronda": "Cuartos",
         "jugador1": null,
         "puntuaciones_jugador_1": {
           "puntos": 0,
@@ -111,7 +111,7 @@
       },
       {
         "id": "P3",
-        "ronda": "Cuartos de final",
+        "ronda": "Cuartos",
         "jugador1": null,
         "puntuaciones_jugador_1": {
           "puntos": 0,
@@ -131,7 +131,7 @@
       },
       {
         "id": "P4",
-        "ronda": "Cuartos de final",
+        "ronda": "Cuartos",
         "jugador1": null,
         "puntuaciones_jugador_1": {
           "puntos": 0,
