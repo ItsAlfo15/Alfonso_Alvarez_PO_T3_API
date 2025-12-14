@@ -9,6 +9,15 @@ const getAllPartidos = (() => {
     }
 })
 
+const updateTorneo = ((changes) => {
+    try {
+        const updatedTorneo = Torneo.updateTorneo(changes);
+        return updatedTorneo;
+    } catch (error) {
+        throw error;
+    }
+})
+
 const updateOnePartido = ((id, changes) => {
     try {
         const updatedPartido = Torneo.updateOnePartido(id, changes);
@@ -20,5 +29,6 @@ const updateOnePartido = ((id, changes) => {
 
 module.exports = {
     getAllPartidos,
+    updateTorneo,
     updateOnePartido
 }

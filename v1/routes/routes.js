@@ -8,7 +8,7 @@ const router = express.Router();
 
 router.get("/torneo", torneoController.getAllPartidos);
 
-router.patch("/torneo/partido/:id", torneoController.updateOnePartido);
+router.patch("/torneo", torneoController.updateTorneo);
 
 
 router.get("/jugadores", jugadoresController.getAllJugadores);

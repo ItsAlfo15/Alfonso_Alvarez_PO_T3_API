@@ -67,7 +67,7 @@
   ],
   "torneo": {
     "id": "T1",
-    "nombre": "Primer Torneo",
+    "nombre": "Prueba",
     "partidos": [
       {
         "id": "P1",

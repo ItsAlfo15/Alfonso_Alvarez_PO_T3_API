@@ -17,6 +17,29 @@ const getAllPartidos = (req, res) => {
         })
     }
 }
+const updateTorneo = (req, res) => {
+
+    const { body } = req;
+
+    if (!body || typeof body.nombre !== 'string') {
+        res.status(400).send({
+            status: "FAILED",
+            data: { error: "Debes introducir el campo 'nombre'." },
+        });
+        return;
+    }
+    
+    try {
+        const updatedName = torneoService.updateTorneo(body);
+
+        res.status(200).send({ status: "OK", data: { nombre: updatedName } });
+    } catch (error) {
+        res.status(error?.status || 500).send({
+            status: "FAILED",
+            data: { error: error.message || error }
+        });
+    }
+};
 
 const updateOnePartido = (req, res) => {
     const {
@@ -46,5 +69,6 @@ const updateOnePartido = (req, res) => {
 
 module.exports = {
     getAllPartidos,
-    updateOnePartido
+    updateOnePartido,
+    updateTorneo
 }

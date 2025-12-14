@@ -49,6 +49,27 @@ const updateOnePartido = (id, changes) => {
     }
 }
 
+const updateTorneo = (changes) => {
+    try {
+
+        if (!DB.torneo) {
+            throw {
+                status: 404,
+                message: 'Torneo no encontrado.',
+            }
+        }
+
+        DB.torneo.nombre = changes.nombre;
+
+        guardaBBDD(DB);
+
+        return DB.torneo.nombre;
+
+    } catch (error) {
+        throw { status: error?.status || 500, message: error?.message || error }
+    }
+}
+
 function guardaBBDD(DB) {
     fs.writeFileSync(dir, JSON.stringify(DB, null, 2), {
         encoding: "utf8",
@@ -57,5 +78,6 @@ function guardaBBDD(DB) {
 
 module.exports = {
     getAllPartidos,
-    updateOnePartido
+    updateOnePartido,
+    updateTorneo,
 };
