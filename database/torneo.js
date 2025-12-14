@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const dir = "./src/database/database.json";
+const dir = "./database/database.json";
 
 const DB = require("./database.json");
 
